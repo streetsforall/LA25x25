@@ -1,0 +1,42 @@
+.ROW_div div{
+    font-size: .8em;
+    border-radius: 0px;
+    margin: 3px;
+    width: calc(100% - 80px);
+    text-align: center;
+    min-height: 1.5px;
+    margin-left: 0px;
+  }
+
+  .ROW_div {
+    font-family: input-sans;
+    font-weight: 400;
+  }
+  
+  .ROW_div div p {
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+    position: relative;
+  }
+
+  .ROW_car, .ROW_other {
+    border-top:  1px solid black;
+    padding-right: 50px
+  }
+
+  .ROW_div sub {
+    position: relative;
+    left: -30px;
+    height: 0;
+    display: block;
+    width: 100px;
+    left: calc(100% - 70px);
+    text-align: left;
+    line-height: 1.2em;
+    top: 5px;
+  }
+
+
+  

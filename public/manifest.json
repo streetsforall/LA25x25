@@ -1,0 +1,18 @@
+{
+  "short_name": "Los Anegeles 25x25",
+  "name": "A challenge to our next leaders to build a more accessible, green, healthy, and productive city by giving space back to people",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "favicon.ico"
+    },
+    {
+      "src": "walker.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}

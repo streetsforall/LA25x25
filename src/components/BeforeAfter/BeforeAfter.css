@@ -1,0 +1,99 @@
+.beforeafter {
+    font-family:  var(--subFont);
+    font-size: .8em;
+    line-height: 1.3em;
+}
+
+.beforeafter h4 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.before, .after {
+    width: 100%;
+    display: flex;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.twofivepercent {
+    pointer-events: none;
+    width: calc(100% - (100% * 0.786));
+    left: 66.4%;
+    bottom: 67px;
+    height: 51px;
+    position: relative;
+    border: black solid 1px;
+}
+
+.twofivepercent::after {
+    content: "25% reallocation";
+    position: absolute;
+    top: 55px;
+}
+
+.before div, .after div {
+    margin: 1px;
+}
+
+.before-graph {
+    width: 100%;
+}
+
+.before div:hover, .after div:hover {
+    opacity: .8;
+}
+
+.beforekey {
+    border-radius: 10px;
+    display: flex;
+    width: max-content;
+    margin-bottom: 15px;
+}
+
+.hybrid {
+    background: repeating-linear-gradient(
+    45deg,
+    var(--gold),
+    var(--gold) 10px,
+    var(--red) 10px,
+    var(--red) 20px
+  );
+}
+
+.cars {
+    background-color: var(--red);
+}
+  
+.ppl {
+    background-color: var(--gold);
+}
+
+.beforekey div{
+    padding: 5px;
+    margin: 1px
+}
+
+.before .cars{
+    width: calc(100% * .881)
+}
+.before .hybrid{
+    width: calc(100% * 0.004)
+}
+.before .ppl{
+    width: calc(100% * 0.119)
+}
+
+.after .cars{
+    width: calc(100% * .670)
+}
+
+.after .hybrid{
+    width: calc(100% * 0.117)
+}
+
+.after .ppl{
+    width: calc(100% * 0.213)
+}

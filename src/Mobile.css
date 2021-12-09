@@ -1,0 +1,92 @@
+
+
+@media only screen and (max-width: 810px) {
+
+  .noMobile {
+    display: none;
+  }
+    .App {
+      font-size: 1em;
+      padding: 0px;
+    }
+
+    sub {
+      font-size: .7em;
+    }
+
+    .GridItem {
+      width: 100%;
+    }
+
+    .PullQuote a {
+      left: -40px;
+    }
+
+    .ROW_div p {
+      line-height: 1em;
+      padding: 10px;
+    }
+
+    .ROW_div div {
+      width: calc(100% - 50px);
+    }
+
+    .ROW_div sub {
+      left: calc(100% - 40px)
+    }
+
+    .bucket {
+      border: none;
+      background-color: var(--warmbg);
+    }
+
+    .equity {
+      text-align: center;
+
+    }
+
+    .equity div{
+      padding: 0px 10px 0px 10px;
+      margin: auto;
+      margin-top: 5px;
+      display: block;
+      line-height: 25px;
+    }
+
+
+    img {
+      max-width: 100%;
+    }
+
+    .big {
+      width: 100%;
+      margin: auto;
+      margin-top: 50px;
+      object-fit: cover;
+      height: 400px;
+      
+    }
+
+    .full_width {
+      width: 100%;
+    }
+
+    .benifit{
+      margin-bottom: -110px;
+      max-width: 100%;
+    }
+
+
+.image sub {
+  width: 100%;
+}
+
+
+    .GridMenu {
+      top: 0;
+    }
+
+
+
+
+  }

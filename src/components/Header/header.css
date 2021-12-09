@@ -1,0 +1,308 @@
+
+
+
+.header {
+    font-size: 1.1em;
+    height: calc(100vh - 80px);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 1800px;
+    max-height: 1000px;
+    margin: auto;
+
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header h1 {
+    text-align: left;
+    font-size: 2em;
+}
+
+.header p {
+    margin: 0px;
+}
+
+.header h3 {
+    font-weight: 400;
+    font-size: 1.8em;
+    line-height: 1.3em;
+    color: black;
+    margin: 0px;
+    font-weight: 200;
+}
+
+.span {
+    border-radius: 30px;
+}
+
+.headerleft {
+    width: 75%;
+    text-align: left;
+    padding: 25px 25px 0px 25px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headerright {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content:start;
+    max-height: 100%;
+}
+
+
+.headerright div {
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    margin:  5px 20px 5px 20px;
+}
+
+.headerright a p{
+    text-decoration: none;
+    margin: 5px 15px 5px 15px;
+}
+.headerright sub a {
+    text-align: center;
+    text-decoration: underline;
+    border-bottom: none;
+}
+
+
+.headerright a {
+    color: black;
+}
+
+
+.headerright>a {
+    padding: 10px 0px 10px 0px;
+    border: 1px solid var(--warmbg);
+    background-color: var(--warmbg);
+    border-radius: 50px;
+    text-align: center;
+    margin:  5px 20px 5px 20px;
+}
+
+.headerright>a:hover {
+    background-color: var(--bg);
+    color: black;
+}
+
+.endorsments p {
+    color: var(--dark);
+}
+
+.endorsments {
+    font-size: 1.25em;
+    border-radius: 40px;
+    padding: 10px 0px 10px 0px;
+    color: var(--dark);
+    border: 1px solid var(--dark);
+    display: block;
+    text-align: center;
+}
+
+.endorsments:hover{
+    color: var(--bg);
+    background: var(--dark);
+}
+
+.endorsments:hover p { 
+    color: var(--bg)
+}
+
+
+.headerright sub{
+    margin-top: -10px;
+    font-size: .7em;
+line-height: 0.5em;
+border-bottom: none;
+}
+
+.header_cont {
+    overflow: visible;
+}
+
+.header-nav div {
+    flex-wrap: wrap;
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 840px;
+}
+
+.header-nav {
+font-size: 1.2em;
+    position: -webkit-sticky;
+    top: 0px;
+    background: var(--transparent);
+    padding: 6px 15px 4px 15px;
+    z-index: 4;
+    overflow: visible;
+    position: sticky;
+    width: 100vw;
+    margin: 0 auto;
+    margin-left: -25px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    border: none;
+    color: black;
+    border-radius: 40px;
+    padding: 3px 12px 5px 12px;
+}
+
+.header-nav a:hover {
+    color: black;
+    background-color: var(--warmbg);
+}
+
+.language {
+    width: max-content;
+}
+.SFA {
+    border: none;
+    max-width: 100%;
+    max-height: 70px;
+    margin: auto;
+}
+
+.SFA img {
+    border: none;
+    max-width: 100%;
+    max-height: 200px;
+    margin: auto;
+}
+
+.title {
+    height: 20%;
+}
+
+.vid {
+    position: relative;
+    height: calc(80% - 10px);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.header iframe {
+    display: block;
+    max-width: 100%;
+    /* min-height: 70%; */
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1600px) {
+     
+    .header h3 {
+        font-size: 1.6em;
+    }
+
+    .header h1 {
+        font-size: 1.4em;
+    }
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+     
+    .title h3 {
+        font-size: 1.3em;
+    }
+
+    .vid {
+        position: relative;
+        height: calc(70% - 10px);
+        overflow: hidden;
+        margin-top: 30px;
+    }
+
+    .headerright {
+        font-size: .8em;
+    }
+
+    .headerright>a, .endorsments{
+        padding: 5px 0px 5px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+     
+    .headerright {
+        width: calc(100% - 40px);
+        padding: 20px;
+      }
+
+      .headerright div {
+          padding: 10px 0px 10px 0px;
+      }
+
+      .headerright a p{ 
+        margin: 10px 0px 10px 0px;
+      }
+
+      .header {
+        margin: 6px;
+        height: auto;
+        flex-direction: column;
+        max-height: 100%;
+      }
+
+      .header-nav a{
+        display: none;
+      }
+
+      .header-nav {
+          margin-left: -10px;
+          background: none;
+          padding-top: 15px;
+          width: calc(100% - 10px)
+      }
+  
+      .SFA {
+       display: none;
+      }
+
+      .language {
+          left: 20px;
+          background: var(--dark);
+          color: var(--bg);
+          font-size: .8em;
+          width: max-content;
+      }
+      
+    .headerright {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .headerleft {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .vid {
+        height: 200px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+
+}

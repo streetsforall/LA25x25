@@ -1,0 +1,252 @@
+.coalition {
+    width: calc(100% - 40px);
+    margin: auto;
+    max-width: 1600px;
+    padding: 20px;
+    display: block;
+}
+
+.coalition img {
+    width: 100%;
+    border-right: 5px;
+    overflow: hidden;
+}
+
+a {
+    color: var(--dark);
+    transition: .3s;
+}
+
+a:hover {
+    color: black;
+    transition: .3s;
+}
+
+.coalitionimg {
+    border-radius: 30px;
+    background-color: var(--warmbg);
+}
+
+.coalition-head {
+    z-index: 10;
+    display: block;
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+    top: 70px;
+    max-width: calc(100% - 100px);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.electeds-head {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+.electeds {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    border-bottom: 1px solid var(--dark);
+}
+
+.endorsed  {
+    text-align:center;
+    width: max-content;
+margin-top: 20px;
+}
+
+.endorsed span{
+    padding: 2px 12px 5px 12px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.neutral {
+    background-color: var(--bg);
+    border: 1px solid lightgray;
+
+}
+
+.sign-on  {
+    border: none;
+}
+
+.sign-on p{
+    background-color: var(--warmbg);
+    padding: 10px 25px 10px 25px;
+    border-radius: 40px;
+    text-align: center;
+    border: none;
+    font-size: 1.2em;
+    max-width: max-content;
+    margin: 10px;
+}
+
+.race {
+    width: calc(25% - 60px);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: var(--warmbg);
+}
+
+
+.race .Yes {
+    background-color: var(--green);
+}
+
+.race .Yes:before {
+    content: "✓ "
+}
+
+.race .No {
+    background-color: var(--red);
+}
+
+.race .No:before {
+    content: "X "
+}
+
+
+.race h3 {
+    margin: 0px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.race li {
+    list-style: none;
+    padding: 2px 12px 5px 12px;
+    border-radius: 25px;
+    margin-top: 6px;
+    background-color: var(--bg);
+    width: max-content;
+}
+
+.orgs {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 20px;
+   width: 100%;
+}
+
+.orgs a{
+    width: calc(25% - 40px);
+    border: none;
+    margin: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px var(--light) solid; */
+    border-radius: 25px;
+    padding: 10px;
+    background: var(--warmbg);
+}
+
+.orgs a p {
+text-align: center;
+}
+
+
+.orgs a img {
+    margin: auto;
+    display: block;
+    justify-content: center;
+    max-height: 200px;
+    padding: 20px;
+    max-width: calc(100% - 40px);
+    width: auto;
+    border: none;
+}
+
+@media only screen and (min-width: 811px) and (max-width: 1400px) {
+
+    .coalition-head { 
+        top: 50px
+    }
+
+    .orgs a{
+        width: calc(33% - 40px);
+    }
+
+    .race {
+        width: calc(33% - 50px);
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+
+    .navButton { 
+        top: 15px;
+        left: 15px;
+        position: fixed;
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .coalition-head {
+        max-width: calc(100% - 50px);
+        padding: 25px;
+        top: 30px;
+    }
+
+    .electeds-head {
+        flex-direction: column;
+    }
+
+    .sign-on {
+        margin: auto;
+    }
+
+    .coalition {
+        width: calc(100% - 0px);
+        margin: auto;
+        max-width: 1600px;
+        padding: 0px;
+        font-size: .9em;
+        margin-bottom: 20px;
+    }
+
+    .orgs a{
+        width: calc(50% - 30px);
+        margin: 5px;
+    }
+
+    .race {
+        width: calc(100% - 0px);
+    
+    }
+   .electeds {
+        width: 100%;
+    }
+    
+    .endorsed {
+        display: flex;
+        text-align: left;
+        font-size: .8em;
+    }
+
+    .coalitionimg  {
+        border-radius: 5px;
+        object-fit: cover;
+        height: 80vh;
+    }
+
+
+    .endorsed span {
+        width: max-content;
+        margin-top: 5px;
+        margin: 3px;
+    }
+}
