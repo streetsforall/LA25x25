@@ -1,0 +1,7 @@
+/.DS_Store
+/build
+/node_modules
+/src/ignore.js
+/src/data/merged_roads.geojson
+/src/data/streets_nofwy.geojson
+/GIS/
