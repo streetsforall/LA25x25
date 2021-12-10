@@ -17,7 +17,7 @@ import {mapboxaccess} from "../../../ignore.js";
 
 import "./citymap.css";
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiamF3c2h2IiwiYSI6ImNrNnZmYncwdjAxYjAzcG16ZG1zaXY4NmoifQ.o6Dleq9Ibuv2JSXw9JDZcw';
+mapboxgl.accessToken = mapboxaccess;
 
 const CityMap = () => {
   console.log("changemap");

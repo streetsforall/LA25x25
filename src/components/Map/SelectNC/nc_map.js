@@ -12,17 +12,14 @@ import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-load
 // import ncbounder from "../../../data/Enriched_neighborhood_councils.json";
 // import ncwalkshed from "../../../data/10min-park-walksheds-merged-extracted.json";
 // import ncbounder from "../../../data/Enriched_neighborhood_councils";
-import ncbounder from "../../../data/Enriched_NCs_w_vz_tree.json";
+import ncbounder from "../../../data/Enriched_NCs_w_vz_crashes2.json";
 import ncroads from "../../../data/merged_roads_compressed.geojson";
 import ncparks from "../../../data/city_Parks.geojson";
 import bbox from "@turf/bbox";
 import difference from "@turf/difference";
-
 import {mapboxaccess} from "../../../ignore.js";
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiamF3c2h2IiwiYSI6ImNrNnZmYncwdjAxYjAzcG16ZG1zaXY4NmoifQ.o6Dleq9Ibuv2JSXw9JDZcw';
-
-
+mapboxgl.accessToken = mapboxaccess;
 
 const earth = {
   "type": "Polygon", "coordinates": [
