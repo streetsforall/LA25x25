@@ -3,5 +3,8 @@ We envision a city where the bus is never stuck in traffic. Where children can b
 
 LA 25x25 is a challenge to our next leaders to build a more accessible green healthy and productive city by giving public space back to people.
 
+[View the site](https://la25x25.com/)
+
+
 To run site locally: 
-### npm start
+`npm start`
